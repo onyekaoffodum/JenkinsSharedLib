@@ -1,5 +1,4 @@
-def call (String buildStatus, String Recipients) {
-    def sendEmail(String buildStatus,String recipient) {   
+def call (String buildStatus, String Recipients) {   
    def subject = "${buildStatus}: Job ${env.JOB_NAME} - ${env.BUILD_NUMBER}"
    def body = """<html>
                  <head>
