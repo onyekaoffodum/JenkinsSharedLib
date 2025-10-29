@@ -73,4 +73,3 @@ def call (String buildStatus, String Recipients) {
         to: recipient
     )   
 }
-}
